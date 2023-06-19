@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Doctors - KIRA Clinic</title>
+    <link rel="shortcut icon" href="./house-chimney-medical-solid.svg" type="image/x-icon">
+    <link rel="stylesheet" href="home.css">
+    
+    <style>
+        * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #0bb6d8;
+}
+.logo{
+    position: absolute;
+    top: 5;
+    left: 20px;
+    width: 120px;
+    height: 180px;
+}
+.logo img{
+    width: 100px;
+    height:80px;
+}
+
+general style
+.imglogo{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+}
+a {
+    color: darkturquoise;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header */
+header {
+    background-color: black;
+    padding: 20px;
+    
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    font-weight: bold;
+}
+           /* footer {
+    background-color: #333;
+    color: deepskyblue;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 18px;
+} */
+        h1{
+            display: block;
+        }
+        .doctors {
+            margin: 50px auto;
+            width: fit-content;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        h2 {
+            font-size: 24px;
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        
+        p {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        
+        .doctor-card {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        .doctor-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        
+        /* .doctor-info {
+            flex-grow: 1;
+        } */
+        
+        .doctor-info h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+        
+        .doctor-info p {
+            margin: 0;
+        }
+
+        footer {
+    background-color: #333;
+    color: deepskyblue;
+    text-align: left;
+    padding: 20px;
+    
+}
+
+footer p {
+    font-size: 18px;
+}
+.logout{
+    left: 70%;
+}
+
+.twit {
+    width: 8%;
+    text-align: left;
+    padding: 20px;
+}
+
+.ins{
+    width: 5%;
+    text-align: left;
+    padding: 20px;
+}
+
+.fac{
+    width: 5%;
+    text-align: left;
+    padding: 20px;
+}
+    </style>
+</head>
+<body> 
+    <header>
+        <nav>
+             
+            <button type="button">log out</button>
+            <div class="logo">
+
+
+                <img src="KILA.LOGO.jpg" alt="logo" class="imglogo" >
+            </div>
+            <div class="navbar">            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <!-- <li><a href="services.html">Services</a></li> -->
+                <li><a href="contuct us.html">Contact us</a></li>
+                <li><a href="OUR DOCTOR.html">our doctor</a></li>          
+            </ul>
+        
+        </nav>
+        <h1>KIRA CLINIC</h1>
+        
+        
+    </header>
+    <div>         
+        <div class="doctors">
+            <h2>OUR DOCTORS</h2>
+            <p>At KIRA Clinic, we have a team of highly skilled and experienced doctors<br>
+               dedicated to providing quality healthcare to our patients.
+            </p>
+            
+            <div class="doctor-card">
+                <img src="D1.jpg" alt="Doctor 1">
+                <div class="doctor-info">
+                    <h3>Dr. william d</h3>
+                    <p>Specialization: Cardiology</p>
+                    <p>Experience: 15 years</p>
+                    <p>Rwanda</p>
+                </div>
+            </div>
+            
+            <div class="doctor-card">
+                <img src="D2.jpg" alt="Doctor 2">
+                <div class="doctor-info">
+                    <h3>Dr. criss </h3>
+                    <p>Specialization: Pediatrics</p>
+                    <p>Experience: 10 years</p>
+                    <p>From Amerca </p>
+                </div>
+            </div>
+            
+            <div class="doctor-card">
+                <img src="D3.jpg" alt="Doctor 3">
+                <div class="doctor-info">
+                    <h3>Dr.Emmanuel </h3>
+                    <p>Specialization: Internal Medicine</p>
+                    <p>Experience: 20 years</p>
+                    <p>From Rwanda</p>
+                </div>
+            </div>
+            
+            <!-- Add more doctor cards as needed -->
+            
+            <a href="docs.html" class="more">VIEW ALL DOCTORS</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 KIRA CLINIC</p>
+        <p>&copy;De Willernow</p>
+        <div class="footer-column">
+            <h3>our services</h3>
+            <ul>
+                <li><a href="Vaccination">Vaccination</a></li>
+                <li><a href="Medical Checkup">Medical Checkup</a></li>
+                <li><a href="Lab Tests">Lab Tests</a></li>
+            </ul>
+        </div>
+        <div class="colum">
+            
+           <a href="http://www.twitter.com" target="_blank"></a><img src="./twiter.png" class="twit"><span>KIRA CLINIC</span>
+           <a href="http://www.instagram.com" target="_blank"></a><img src="./IG 1.png" class="ins"><span>KIRA CLINIC</span>
+           <a href="http://www.facebook.com" target="_blank"></a><img src="./fb.png" class="fac"><span>KIRA CLINIC</span>
+            </ul>
+        </div>
+        </div>
+
+    </footer>
+    
+    
+</body>
+</html>

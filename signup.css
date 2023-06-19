@@ -1,0 +1,60 @@
+fieldset{
+    width: 220px;
+    height: 450px;
+    border: 1px solid dodgerblue;
+    padding: 35px;
+    margin-top: 10%;
+    margin-left: 40%;
+    background-color: transparent;
+    border-radius: 10px;
+}
+input{
+    padding: 5px;
+    border-top: none;
+    background-color: transparent;
+    border-left: none;
+    border-bottom: 1px solid white;
+    border-right: none;
+    outline: none;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    width: 100%;
+}
+label{
+    font-size: xx-large;
+    color: dodgerblue;
+}
+#login{
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 30px;
+    width: 100px;
+    height: 30px;
+    border:  1px solid gray;
+    background-color: dodgerblue;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    border-bottom: 1px solid dodgerblue;
+}
+body{
+    background-image: url(./10.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+span{
+    font-size: large;
+    font-weight: normal;
+}
+a{
+    color: dodgerblue;
+    left: 58.1%;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 87.4%;
+    font-weight: bolder;
+    position: fixed;
+    transform: translate(-50%,-50%);
+
+}

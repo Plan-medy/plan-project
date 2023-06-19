@@ -1,0 +1,219 @@
+ /*General Styles*/
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #0bb6d8;
+}
+.logo{
+    position: absolute;
+    top: 5;
+    left: 20px;
+    width: 120px;
+    height: 180px;
+}
+.logo img{
+    width: 100px;
+    height:80px;
+}
+
+general style
+.imglogo{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+}
+a {
+    color: darkturquoise;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header */
+header {
+    background-color: black;
+    padding: 20px;
+    
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    font-weight: bold;
+}
+h1 {
+    margin-top: 30px;
+    font-size: 36px;
+}
+
+p {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+/*a[href='About'] {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #00bcd4;
+    color: #fff;
+    font-weight: bold;
+}
+
+a[href='#']:hover {
+    background-color: #0097a7;
+}*/
+.navbar{
+    width: 50%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+/* Services */
+.services {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Appointment */
+.appointment {
+    background-color: deepskyblue;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.appointment h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input,
+select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+
+input[type='submit'] {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #00bcd4;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+}
+
+input[type='submit']:hover {
+    background-color: #0097a7;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: deepskyblue;
+    text-align: left;
+    padding: 20px;
+    
+}
+
+footer p {
+    font-size: 18px;
+}
+.logout{
+    left: 70%;
+}
+
+.twit {
+    width: 8%;
+    text-align: left;
+    padding: 20px;
+}
+
+.ins{
+    width: 5%;
+    text-align: left;
+    padding: 20px;
+}
+
+.fac{
+    width: 5%;
+    text-align: left;
+    padding: 20px;
+}

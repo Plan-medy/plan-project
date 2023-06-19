@@ -1,0 +1,15 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: url(67.jpg);
+    background: cover;
+	background-position: center;
+}
+a{
+	font-size: 30px;
+}
+ul{
+	background: gold;
+}
